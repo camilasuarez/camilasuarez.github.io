@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="proyecto final.css">
+    <title> GAME4YOU</title>
+</head>
+<style>
+    div {
+        margin-top: 10px;
+    }
+</style>
+<body>
+  <header>
+    <nav>
+          <ul class="main-menu">
+              <li><a href="juegos.html">juegos</a></li>
+              <li><a href="favoritos.html">Favoritos</a></li>
+              <li ><a href="4Sale.html">4Sale</a></li>
+              <li ><a href="Últimos.html">Ultimos</a></li>
+              <li class="Iniciosesión"><a href="Iniciosesión.html">Inicio Sesión</a></li>
+              <li><a href="usuarios.html">Registro</a></li>
+          </ul>
+      </nav>
+  </header>
+</body>
+<from method="post">
+  <div id="Iniciosesión">
+  <div>
+    <h1> Inicio Sesión<h1>
+    <label for="Campo 12"> Usuario: </label>
+      <br>
+        <input placeholder="Ingrese su usuario..." type="texto" id="Campo 12" name="Nombre:" required maxlength="30">
+      </br>
+  </div>
+  <div>
+    <label for="Campo 13"> Contraseña: </label>
+      <br>
+        <input placeholder="Ingrese su contraseña..." type="password" id="Campo 13" name="pass" required minlength="8" maxlength="24" pattern="[A-Za-Z0-9]+" required>
+      </br>
+  <button type="submit"> Iniciar </button>
+</div>
+</html>

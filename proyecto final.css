@@ -1,0 +1,390 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  color: white;
+}
+body {
+  padding:0;
+  margin: 0;
+  font-family: Georgia fantasy;
+  background-color: black;
+}
+.main-menu{
+   display: flex;
+   list-style-type: none;
+   text-align: center;
+   padding: 0;
+   margin:0
+}
+.main-menu li {
+  display: flex;
+  width: 100%;
+  border-right: 1px solid gray;
+  text-align: center;
+
+  float: left;
+  background-color: white;
+  margin: 0;
+
+}
+.main-menu li a{
+  display: flex;
+  color: black;
+  font-size: 1.5em;
+  font-family: fantasy;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+  opacity: 5;
+}
+.main-menu li a:hover{
+  text-decoration: none;
+  background: lightgray;
+}
+.main-menu i{
+  padding-right: 10px;
+}
+.imagen{
+  padding: 0 40px;
+
+}
+.imagen img{
+  width: 100%;
+}
+.comentarios {
+  margin:0 1150px;
+  margin-top:10px;
+  }
+.comentarios h1{
+  color: white;
+}
+#lista-juegos li {
+  margin: 0;
+  padding:0px;
+  box-sizing: border-box;
+  font-size: medium,20px,1.2em,1.2rem,90%,x-large;
+  margin:40px auto 0 auto;
+  list-style-type:none;
+  height:400px;
+  width:304px;
+  border:2px solid lightgray;
+  display: inline-block;
+}
+#Fornite img{
+  top: 50px;
+}
+#Minecraft img{
+    top: 50px;
+}
+#League-of-Legends img{
+    top: 50px;
+}
+#Playerunknown’s-Battlegrounds img{
+    top: 50px;
+}
+#Grand-Theft-Auto-5 img{
+    top: 50px;
+}
+#Fifa-18 img{
+    top: 50px;
+}
+#Call-of-Duty img{
+    top: 50px;
+}
+#The-Witcher-3 img{
+    top: 50px;
+}
+#XCOM img{
+    top: 50px;
+}
+#Forza-Motor-Sport-6 img{
+    top: 50px;
+}
+#Favoritos li{
+  margin: 0;
+  padding:0px;
+  box-sizing: border-box;
+  font-size: medium,20px,1.2em,1.2rem,90%,x-large;
+  margin:40px auto 0 auto;
+  list-style-type:none;
+  height:400px;
+  width:304px;
+  border:2px solid lightgray;
+}
+#Sale li{
+  margin: 0;
+  padding:0px;
+  box-sizing: border-box;
+  font-size: medium,20px,1.2em,1.2rem,90%,x-large;
+  margin:40px auto 0 auto;
+  list-style-type:none;
+  height:400px;
+  width:304px;
+  border:2px solid lightgray;
+}
+#Ultimos li {
+  margin: 0;
+  padding:0px;
+  box-sizing: border-box;
+  font-size: medium,20px,1.2em,1.2rem,90%,x-large;
+  margin:40px auto 0 auto;
+  list-style-type:none;
+  height:400px;
+  width:304px;
+  border:2px solid lightgray;
+}
+#Fortnite-pag h1{
+  color: yellow;
+  font-size: 50px;
+}
+#Fornite-pag p{
+    font-size: 18px;
+    left: 300px;
+    line-height: 1;
+    top: 40px;
+    position: relative;
+    margin: 0px;
+    padding: 10px;
+    border: 1px ;
+    color: white;
+}
+#Fortnite-pag h4{
+  margin: auto;
+  font-size: 30px;
+}
+#Call-of-Duty p{
+   font-size: 18px;
+   left: 300px;
+   line-height: 1;
+   top: 40px;
+   position: relative;
+   margin: 0px;
+   padding: 10px;
+   border: 1px ;
+   color: white;
+ }
+#Call-of-Duty-pag h1{
+  color: yellow;
+  font-size: 50px;
+}
+#Call-of-Duty-pag h4{
+  margin: auto;
+  font-size: 30px;
+}
+#Fifa-pag p{
+    font-size: 18px;
+    left: 0px;
+    line-height: 1;
+    top: 0px;
+    position: relative;
+    margin: 0px;
+    padding: 10px;
+    border: 1px ;
+    color: white;
+}
+#Fifa-pag h1 {
+  color: yellow;
+  font-size: 50px;
+}
+#Fifa-pag h4 {
+  margin: auto;
+  font-size: 30px;
+}
+#Forza-pag p{
+    font-size: 18px;
+    left: 0px;
+    line-height: 1;
+    top: 0px;
+    position: relative;
+    margin: 0px;
+    padding: 10px;
+    border: 1px ;
+    color: white;
+}
+#Forza-pag h1{
+  color: yellow;
+  font-size: 50px;
+}
+#Forza-pag h4{
+  margin: auto;
+  font-size: 30px;
+}
+#GTA-pag p{
+    font-size: 18px;
+    left: 0px;
+    line-height: 1;
+    top: 0px;
+    position: relative;
+    margin: 0px;
+    padding: 10px;
+    border: 1px ;
+    color: white;
+}
+#GTA-pag h1{
+  color: yellow;
+  font-size: 50px;
+}
+#GTA-pag h4{
+  margin: auto;
+  font-size: 30px;
+}
+#Lol-pag p{
+    font-size: 18px;
+    left: 0px;
+    line-height: 1;
+    top: 0px;
+    position: relative;
+    margin: 0px;
+    padding: 10px;
+    border: 1px ;
+    color: white;
+}
+#Lol-pag h1{
+  color: yellow;
+  font-size: 50px;
+}
+#Lol-pag h4{
+  margin: auto;
+  font-size: 30px;
+}
+#Minecraft-pag p{
+    font-size: 18px;
+    left: 0px;
+    line-height: 1;
+    top: 0px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border: 1px ;
+    color: white;
+}
+#Minecraft-pag h1{
+  color: yellow;
+  font-size: 50px;
+}
+#Minecraft-pag h4{
+  margin: auto;
+  font-size: 30px;
+}
+#Pb-pag p{
+    font-size: 18px;
+    left: 0px;
+    line-height: 1;
+    top: 0px;
+    position: relative;
+    margin: 0px;
+    padding: 10px;
+    border: 1px ;
+    color: white;
+}
+#Pb-pag h1{
+  color: yellow;
+  font-size: 50px;
+}
+#Pb-pag h4{
+  margin: auto;
+  font-size: 30px;
+}
+#Tw-pag p{
+   font-size: 18px;
+   left: 0px;
+   line-height: 1;
+   top: 0px;
+   position: relative;
+   margin: 0px;
+   padding: 10px;
+   border: 1px ;
+   color: white;
+}
+#Tw-pag h1{
+  color: yellow;
+  font-size: 50px;
+}
+#Tw-pag h4{
+  margin: auto;
+  font-size: 30px;
+}
+#XCOM-pag p{
+    font-size: 18px;
+    left: 0px;
+    line-height: 1;
+    top: 0px;
+    position: relative;
+    margin: 0px;
+    padding: 10px;
+    border: 1px ;
+    color: white;
+}
+#XCOM-pag h1{
+  color: yellow;
+  font-size: 50px;
+}
+#XCOM-pag h4{
+  margin: auto;
+  font-size: 30px;
+}
+#Registro {
+   position:relative;
+   height:124px;
+   width:548px;
+   margin:0 auto;
+   padding: 20px 10px 740px 40px;
+   border: 3px solid gray;
+   background-color: white;
+   color: black;
+}
+#registro label:Focus{
+  border: 2px solid #000;
+ background: #F3F3F3;
+}
+#Registro input{
+   padding: .2em;
+}
+#Iniciosesión {
+  position:relative;
+   height:124px;
+   width:548px;
+   margin:50px auto;
+   padding: 20px 10px 300px 40px;
+   border: 3px solid gray;
+   background-color: white;
+   color: black;
+}
+#Iniciosesión button{
+  margin: 10px;
+}
+#Comentarios {
+  position:relative;
+   height:124px;
+   width:548px;
+   margin:50px auto;
+   padding: 20px 10px 310px 30px;
+   border: 3px solid gray;
+   background-color: white;
+   color: black;
+}
+#Comentarios button {
+    margin: 10px;
+}
+@media screen and (max-width : 450px){
+  .main-menu{
+    display: block;
+}
+  .main-menu li {
+    display: block;
+   }
+   .main-menu li a{
+    display: block;
+}
+   .main-menu li a:hover{
+     display: block;
+}
+   .main-menu i{
+    display: block;
+}
